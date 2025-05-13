@@ -1,0 +1,14 @@
+{
+  "name": "yoobroo",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "cd yoobroo-mobile && npx expo start",
+    "android": "cd yoobroo-mobile && npx expo start --android",
+    "ios": "cd yoobroo-mobile && npx expo start --ios",
+    "web": "cd yoobroo-mobile && npx expo start --web"
+  },
+  "dependencies": {
+    "react-native-svg": "^15.12.0"
+  }
+}
